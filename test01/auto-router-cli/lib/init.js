@@ -39,7 +39,7 @@ module.exports = async name => {
     await spawn('npm', ['install'], { cwd: `./${name}` })
     log(`
     👌安装完成：
-    开始同步:
+    开始启动:
     ===========================
         cd ${name}
         npm run serve
